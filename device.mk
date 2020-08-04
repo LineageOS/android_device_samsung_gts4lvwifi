@@ -18,5 +18,9 @@
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
+# Device init scripts
+PRODUCT_PACKAGES += \
+    init.gts4lvwifi.rc
+
 # Inherit from gts4lv-common
 $(call inherit-product, device/samsung/gts4lv-common/gts4lv.mk)
