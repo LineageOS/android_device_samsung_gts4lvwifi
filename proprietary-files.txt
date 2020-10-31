@@ -1,0 +1,42 @@
+# ACDB data
+vendor/etc/audconf/ODM/Bluetooth_cal.acdb
+vendor/etc/audconf/ODM/General_cal.acdb
+vendor/etc/audconf/ODM/Global_cal.acdb
+vendor/etc/audconf/ODM/Handset_cal.acdb
+vendor/etc/audconf/ODM/Hdmi_cal.acdb
+vendor/etc/audconf/ODM/Headset_cal.acdb
+vendor/etc/audconf/ODM/Speaker_cal.acdb
+vendor/etc/audconf/ODM/workspaceFile.qwsp
+vendor/etc/audconf/OLM/Bluetooth_cal.acdb
+vendor/etc/audconf/OLM/General_cal.acdb
+vendor/etc/audconf/OLM/Global_cal.acdb
+vendor/etc/audconf/OLM/Handset_cal.acdb
+vendor/etc/audconf/OLM/Hdmi_cal.acdb
+vendor/etc/audconf/OLM/Headset_cal.acdb
+vendor/etc/audconf/OLM/Speaker_cal.acdb
+vendor/etc/audconf/OLM/workspaceFile.qwsp
+vendor/etc/audconf/OPEN/Bluetooth_cal.acdb
+vendor/etc/audconf/OPEN/General_cal.acdb
+vendor/etc/audconf/OPEN/Global_cal.acdb
+vendor/etc/audconf/OPEN/Handset_cal.acdb
+vendor/etc/audconf/OPEN/Hdmi_cal.acdb
+vendor/etc/audconf/OPEN/Headset_cal.acdb
+vendor/etc/audconf/OPEN/Speaker_cal.acdb
+vendor/etc/audconf/OPEN/workspaceFile.qwsp
+
+# IPA firmware
+vendor/etc/init/ipa_fws.rc
+vendor/firmware/ipa_fws.b00
+vendor/firmware/ipa_fws.b01
+vendor/firmware/ipa_fws.b02
+vendor/firmware/ipa_fws.b03
+vendor/firmware/ipa_fws.b04
+vendor/firmware/ipa_fws.elf
+vendor/firmware/ipa_fws.mdt
+
+# WiFi firmware
+vendor/firmware/wlanmdsp.mbn
+vendor/firmware/wlan/qca_cld/bdwlan.bin
+vendor/firmware/wlan/qca_cld/bdwlan.bin_FEM
+vendor/firmware/wlan/qca_cld/grippower.info
+vendor/firmware/wlan/qca_cld/regdb.bin
