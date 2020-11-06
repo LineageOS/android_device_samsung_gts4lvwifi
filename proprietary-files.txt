@@ -32,3 +32,7 @@ vendor/firmware/wlan/qca_cld/bdwlan.bin
 vendor/firmware/wlan/qca_cld/bdwlan.bin_FEM
 vendor/firmware/wlan/qca_cld/grippower.info
 vendor/firmware/wlan/qca_cld/regdb.bin
+
+# DRM
+vendor/lib/liboemcrypto.so
+vendor/lib64/liboemcrypto.so
