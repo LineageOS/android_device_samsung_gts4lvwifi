@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2019-2020 The LineageOS Project
+# Copyright (C) 2019-2021 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -36,6 +36,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-samsung
 # Use the latest approved GMS identifiers
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=gts4lvwifixx \
-    PRIVATE_BUILD_DESC="gts4lvwifixx-user 10 QP1A.190711.020 T720XXU1BTF7 release-keys"
+    PRIVATE_BUILD_DESC="gts4lvwifixx-user 10 QP1A.190711.020 T720XXS2CUA2 release-keys"
 
-BUILD_FINGERPRINT := "samsung/gts4lvwifixx/gts4lvwifi:10/QP1A.190711.020/T720XXU1BTF7:user/release-keys"
+BUILD_FINGERPRINT := "samsung/gts4lvwifixx/gts4lvwifi:10/QP1A.190711.020/T720XXS2CUA2:user/release-keys"
