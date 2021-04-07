@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2019-2020 The LineageOS Project
+# Copyright (C) 2019-2021 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,7 +15,7 @@
 #
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/samsung/gts4lvwifi/gts4lvwifi-vendor.mk)
+$(call inherit-product, vendor/samsung/gts4lvwifi/gts4lvwifi-vendor.mk)
 
 # Local overlays
 DEVICE_PACKAGE_OVERLAYS += \
