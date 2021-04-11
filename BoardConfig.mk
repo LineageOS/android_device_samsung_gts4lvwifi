@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2019 The LineageOS Project
+# Copyright (C) 2019,2021 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -27,6 +27,9 @@ TARGET_BOARD_NAME := SRPSA14B001
 # Kernel
 TARGET_KERNEL_CONFIG := gts4lvwifi_defconfig
 BOARD_MKBOOTIMG_ARGS += --board $(TARGET_BOARD_NAME)
+
+# Properties
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # inherit from the proprietary version
 -include vendor/samsung/gts4lvwifi/BoardConfigVendor.mk
