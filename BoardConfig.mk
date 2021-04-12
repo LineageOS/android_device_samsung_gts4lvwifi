@@ -29,4 +29,4 @@ TARGET_KERNEL_CONFIG := gts4lvwifi_defconfig
 BOARD_MKBOOTIMG_ARGS += --board $(TARGET_BOARD_NAME)
 
 # inherit from the proprietary version
--include vendor/samsung/gts4lvwifi/BoardConfigVendor.mk
+include vendor/samsung/gts4lvwifi/BoardConfigVendor.mk
