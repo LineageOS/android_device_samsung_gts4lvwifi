@@ -28,5 +28,8 @@ TARGET_BOARD_NAME := SRPSA14B001
 TARGET_KERNEL_CONFIG := gts4lvwifi_defconfig
 BOARD_MKBOOTIMG_ARGS += --board $(TARGET_BOARD_NAME)
 
+# Properties
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
 # inherit from the proprietary version
 include vendor/samsung/gts4lvwifi/BoardConfigVendor.mk
