@@ -1,4 +1,4 @@
-# Device-specific proprietary files - from Samsung package version T720XXU2DUL1
+# Device-specific proprietary files - from Samsung package version T720XXU2DVG3
 
 # ACDB data
 vendor/etc/audconf/ODM/Bluetooth_cal.acdb
