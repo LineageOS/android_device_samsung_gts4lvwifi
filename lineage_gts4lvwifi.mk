@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2019-2023 The LineageOS Project
+# Copyright (C) 2019-2024 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -31,13 +31,11 @@ PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-T720
 PRODUCT_MANUFACTURER := samsung
 
-PRODUCT_SYSTEM_NAME := gts4lvwifixx
-
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 # Use the latest approved GMS identifiers
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_PRODUCT=gts4lvwifixx \
-    PRIVATE_BUILD_DESC="gts4lvwifixx-user 11 RP1A.200720.012 T720XXS3DWA1 release-keys"
-
-BUILD_FINGERPRINT := "samsung/gts4lvwifixx/gts4lvwifi:11/RP1A.200720.012/T720XXS3DWA1:user/release-keys"
+    BuildDesc="gts4lvwifixx-user 11 RP1A.200720.012 T720XXS3DWA1 release-keys" \
+    BuildFingerprint=samsung/gts4lvwifixx/gts4lvwifi:11/RP1A.200720.012/T720XXS3DWA1:user/release-keys \
+    DeviceProduct=gts4lvwifixx \
+    SystemName=gts4lvwifixx
