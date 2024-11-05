@@ -17,7 +17,6 @@ module = ExtractUtilsModule(
     'gts4lvwifi',
     'samsung',
     namespace_imports=namespace_imports,
-    check_elf=True,
 )
 
 if __name__ == '__main__':
